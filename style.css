@@ -68,8 +68,26 @@ h1 {
     align-items: center;
 }
 
+
+
 /* JavaScriptで動的にスタイルを変更するためのクラス (例) */
-.completed {
+.completed-text{
     text-decoration: line-through; /* 取り消し線 */
     color: #aaa;
 }
+/* タスクリスト内の完了ボタン */
+ .delete-btn {
+    padding: 5px 10px;
+    background-color: #ca001e; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+} 
+
+ .delete-btn:hover {
+    background-color: #c82333; /* 濃いめの赤でホバー */
+}  
